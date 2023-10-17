@@ -44,6 +44,11 @@ body {
   }
 }
 
+@media (max-width:320px) {
+  .col-lg-6 h1{
+    font-size: 38px;
+  }
+}
 
 .col-lg-6 .roller {
   color: black;
@@ -128,6 +133,15 @@ a{
     padding: 6px 16px;
     font-size: 8px;
 /* Reduce font size for smaller screens */
+  }
+}
+
+@media (max-width: 320px){
+  .download-button {
+    left: -48px;
+    position: relative;
+    padding: 6px 16px;
+    font-size: 8px;
   }
 }
 
@@ -310,6 +324,54 @@ a{
     font-size: 2vh; /* Decrease font size */
   }
 }
+
+@media screen and (max-width: 320px) {
+  #features {
+    font-size: 80%; /* Decrease font size */
+  }
+
+  .features-box .dimage,
+  .features-box .dimage1 {
+    width: 22%;
+    left: 83%;
+    top: 112%;
+    transform: translate(-50%, -50%);
+
+  }
+
+  .features-title {
+    font-size: 3vh; /* Decrease font size */
+  }
+
+  .features-title p,
+  .features-title2 p {
+    font-size: 1.5vh; /* Decrease font size */
+  }
+
+  .features-title2 {
+    font-size: 3vh; /* Decrease font size */
+  }
+
+  .features-title3 {
+    font-size: 3vh; /* Decrease font size */
+    padding: 20px; /* Adjust padding */
+    border-radius: 0; /* Remove border-radius */
+  }
+
+  .features-title3 p {
+    font-size: 2vh; /* Decrease font size */
+    margin: -14px 10px 30px 10px; /* Adjust margins */
+  }
+
+  .features-title3 span {
+    font-size: 2vh; /* Decrease font size */
+  }
+}
+
+
+
+
+
 
 #features-qna h2 {
   font-size: 4vh;
