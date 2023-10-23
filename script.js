@@ -283,7 +283,7 @@ const podslides = [
 	{
 		title: 'Socail Hiccups',
 		descr: 'This powerful 21" Ferrite subwoofer brings you 3200 watts of program power (1600 W AES) with ultra-low distortion and air noise thanks to its aluminum demodulation ring and FEA optimized magnetic circuit.',
-		price: '606.60 &euro;',
+		price: '',
 		src: './images/event_1.png',
 		srcset: '',
 		bg: '#FF6600',
