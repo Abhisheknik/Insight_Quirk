@@ -282,8 +282,8 @@ document.addEventListener("DOMContentLoaded", function() {
 const podslides = [
 	{
 		title: 'Socail Hiccups',
-		descr: 'At Insight Quirks, our club hosts sessions on interview techniques, cutting-edge technology, and effective communication. Join us to stay updated and enhance your skills in these areas.',
-		price: '',
+		descr: 'This powerful 21" Ferrite subwoofer brings you 3200 watts of program power (1600 W AES) with ultra-low distortion and air noise thanks to its aluminum demodulation ring and FEA optimized magnetic circuit.',
+		price: '606.60 &euro;',
 		src: './images/event_1.png',
 		srcset: '',
 		bg: '#FF6600',
@@ -320,6 +320,7 @@ const podslides = [
 	// 	srcset: '',
 	// 	bg: '#FFAA00',
 	// }
+
 ];
 
 class PodSliders {
@@ -411,6 +412,3 @@ class PodSliders {
 }
 
 document.querySelectorAll('.podslider_wrap').forEach(elm => new PodSliders(elm));
-
-
-
