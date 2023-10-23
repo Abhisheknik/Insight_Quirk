@@ -634,7 +634,7 @@ h1 {
 .img-grid {
   /* background-color: #252525; */
   width: 101%;
-  height: 120vh;
+  height: 115vh;
   overflow: hidden;
   padding-top: 9vh;
 
@@ -1224,14 +1224,18 @@ li span {
 
 @media (max-width: 768px) {
   .spq_mission {
-    left: 33px;
+    left: 18px;
     font-size: 10px;
     position: absolute;
-    top: 150px;
+    top: 155px;
     /* Adjust the font size for smaller screens */
   }
 
+}
 
+svg:not(:root) {
+  overflow: hidden;
+  position: absolute;
 }
 
 /* Mission heading styles */
