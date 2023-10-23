@@ -1224,9 +1224,10 @@ li span {
 
 @media (max-width: 768px) {
   .spq_mission {
+    left: 33px;
     font-size: 10px;
     position: absolute;
-    top: 130px;
+    top: 150px;
     /* Adjust the font size for smaller screens */
   }
 
@@ -1488,6 +1489,7 @@ fe-64d6c6e3306d0f54d505302d {
   .podslider_wrap.shown {
     display: block;
     flex-grow: 0;
+    height: 55vh;
     flex-shrink: 0;
   }
 
@@ -1511,7 +1513,7 @@ fe-64d6c6e3306d0f54d505302d {
       flex-shrink: 0;
       display: flex;
       flex-flow: column;
-      height: 50%;
+      height: 103%;
       padding: 20px;
       box-sizing: border-box;
       order: 2;
