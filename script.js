@@ -281,7 +281,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 const podslides = [
 	{
-		title: 'Socail Hiccups',
+		title: 'Social Hiccups',
 		descr: 'At Insight Quirks, our club hosts sessions on interview techniques, cutting-edge technology, and effective communication. Join us to stay updated and enhance your skills in these areas.',
 		price: '',
 		src: './images/event_1.png',
