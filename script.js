@@ -282,7 +282,7 @@ document.addEventListener("DOMContentLoaded", function() {
 const podslides = [
 	{
 		title: 'Socail Hiccups',
-		descr: 'This powerful 21" Ferrite subwoofer brings you 3200 watts of program power (1600 W AES) with ultra-low distortion and air noise thanks to its aluminum demodulation ring and FEA optimized magnetic circuit.',
+		descr: 'At Insight Quirks, our club hosts sessions on interview techniques, cutting-edge technology, and effective communication. Join us to stay updated and enhance your skills in these areas.',
 		price: '',
 		src: './images/event_1.png',
 		srcset: '',
