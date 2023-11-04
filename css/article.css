@@ -13,8 +13,9 @@ body {
   font-family: 'Nunito', sans-serif;
   display: flex;
   /* align-items: center; */
+  background-color: #EDE4FF;
   justify-content: center;
-  height: 100vh;
+  height: 120vh;
   overflow: scroll;
   overflow-x: hidden;
   margin: 0;
@@ -62,10 +63,10 @@ li i {
   background-color: #fff;
   width: 1000px;
   min-width: 400px;
-  height: 120vh;
+  height: 39vh;
   margin: 50px 50px 0;
   padding: 15px 30px;
-  border-radius: 10px 10px 0 0;
+  border-radius: 101px 10px 44px 0;
   position: relative;
 }
 
