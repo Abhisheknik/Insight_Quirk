@@ -152,7 +152,7 @@ a {
 
 
 #title {
-  background-color: #D7BBF5;
+  background-color: rgb(149 234 246 / 63%);
   color: #fff;
   text-align: left;
   border-radius: 0px 0px 143px 0px;
@@ -1038,7 +1038,7 @@ cite {
 
 
 .footer {
-  background-color: #6528F7;
+  background-color: #2c263a;
   color: #fff;
   text-align: center;
   padding: 20px;
@@ -1201,7 +1201,7 @@ li span {
   /* margin: 0px 137px 0px 137px; */
   padding: 20px;
   position: absolute;
-  background-color: #A076F9;
+  background-color: #e9aa78;
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   text-align: center;
