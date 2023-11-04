@@ -25,6 +25,6 @@ Insight Quirks Club is a community-driven initiative that aims to provide a plat
 
 We follow a strict [Code of Conduct](CODE_OF_CONDUCT.md) to ensure a welcoming and inclusive environment for all contributors and community members.
 
-**Website:** [Insight Quirks Club](https://www.insightquirks.com)
+**Website:** [Insight Quirks Club](https://insightquirks.com/)
 
 Thank you for being a part of our community! 🙌🌈
