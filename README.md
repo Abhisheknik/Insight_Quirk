@@ -6,7 +6,6 @@ Welcome to the Insight Quirks Club repository! 🚀🌟 This club is all about s
 
 1. [About](#about)
 2. [Features](#features)
-4. [Code of Conduct](#code-of-conduct)
 5. [License](#license)
 
 ## About
@@ -21,9 +20,6 @@ Insight Quirks Club is a community-driven initiative that aims to provide a plat
 - **Resource Library**: Access valuable resources shared during our events.
 - **Contact Us**: Easily get in touch with the club organizers.
 
-## Code of Conduct
-
-We follow a strict [Code of Conduct](CODE_OF_CONDUCT.md) to ensure a welcoming and inclusive environment for all contributors and community members.
 
 **Website:** [Insight Quirks Club](https://insightquirks.com/)
 
