@@ -60,16 +60,15 @@ li i {
 }
 
 .container {
-  background-color: #fff;
+  background-color: #ffffff82;
   width: 1000px;
   min-width: 400px;
-  height: 39vh;
+  height: 110vh;
   margin: 50px 50px 0;
-  padding: 15px 30px;
-  border-radius: 101px 10px 44px 0;
+  padding: 15px 20px;
+  border-radius: 10px 10px 10px 10px;
   position: relative;
 }
-
 
 
 nav {
@@ -108,7 +107,7 @@ nav .btn-1:hover {
 
 article {
   display: grid;
-  grid-template-areas: 
+  grid-template-areas:
     "top top"
     "center center"
     "content side"
@@ -119,12 +118,12 @@ article {
 }
 
 article .heading {
-    grid-area: top;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    padding: 10px 20px 20px 0;
-    width: 95%;
+  grid-area: top;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 10px 0px 0px 0;
+  width: 95%;
 }
 
 .heading {
@@ -201,30 +200,40 @@ article .right {
 }
 
 
-@media (max-width: 900px) {
+@media (max-width: 765px) {
   html {
-  font-size: 70%;
+    font-size: 20%;
   }
+
   body {
+    padding: 0px 12px 20px 17px;
     height: 100%;
     overflow: visible;
+    left: 8px;
+    position: relative;
   }
-  .container {
+
+.container {
   height: 100%;
+  min-width: min-content;
 }
-  .container::before {
+
+.container::before {
   top: 105px;
 }
-  .user img {
+
+.user img {
   width: 40px;
   height: 40px;
 }
-  nav {
-    flex-direction: column-reverse;
-    gap: 20px;
+
+nav {
+  flex-direction: column-reverse;
+  gap: 20px;
 }
-  article {
-  grid-template-areas: 
+
+article {
+  grid-template-areas:
     "top top"
     "center center"
     "content content"
@@ -233,20 +242,24 @@ article .right {
   grid-template-columns: 100%;
   gap: 40px 0;
 }
-  article .heading {
-    justify-content: center;
-    flex-direction: column-reverse;
-    gap: 15px;
-    width: 100%;
-  }
-  .left .image {
-    width: 100%;
-    min-width: 300px;
-  }
-  .left p {
-    width: 100%;
-  }
-  ul li {
+
+article .heading {
+  justify-content: center;
+  flex-direction: column-reverse;
+  gap: 15px;
+  width: 100%;
+}
+
+.left .image {
+  width: 100%;
+  min-width: 300px;
+}
+
+.left p {
+  width: 100%;
+}
+
+ul li {
   padding-right: 10px;
 }
 }
